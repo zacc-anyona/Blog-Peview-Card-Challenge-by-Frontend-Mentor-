@@ -34,7 +34,8 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub](https://github.com/zacc-anyona/Blog-Peview-Card-Challenge-by-Frontend-Mentor-)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [View with Netlify](https://blog-preview-page-frontend-mentor.netlify.app/)
+- Live Site URL: [View with Vercel](https://blog-peview-card-challenge-by-frontend-mentor.vercel.app/)
 
 ## My process
   - Understood the challege's requirements and instructions.
@@ -69,4 +70,4 @@ body {
 
   First, I want to thank myself for taking up the time to finish this challenge. I did my best.
 
-  Secondly, I want to thank @danielmrz-dev who is a member of Frontend Mentor community who in my previous challenge (Social Links Profile) educated me through his comment, on the most efficient way to center contents of a web page. Thank you.
+  Secondly, I want to thank **@danielmrz-dev** who is a member of Frontend Mentor community who in my previous challenge (*Social Links Profile*) educated me through his comment, on the most efficient way to center contents of a web page. Thank you.
