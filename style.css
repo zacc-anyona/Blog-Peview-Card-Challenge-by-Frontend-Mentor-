@@ -1,0 +1,136 @@
+:root {
+    --primary-yellow: hsl(47, 88%, 63%);
+    --neutral-white: hsl(0, 0%, 100%);
+    --neutral-grey: hsl(0, 0%, 50%);
+    --neutral-black: hsl(0, 0%, 7%)
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--primary-yellow);
+    font-size: 16px;
+    min-height: 100vh;
+    display: flex;  /* it works with grid too  */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Figtree", sans-serif;
+}
+
+.content {
+    background: var(--neutral-white);
+    border: 0.15em solid var(--neutral-black);
+    box-shadow: 0.6em 0.6em var(--neutral-black);
+}
+
+figure {
+    margin: 0;
+}
+
+.learn-text {
+    background-color: var(--primary-yellow);
+    display: inline-block;
+    font-weight: 600;
+}
+
+h1 a {
+    text-decoration: none;
+    color: var(--neutral-black);
+}
+
+h1 a:hover {
+    color: var(--primary-yellow);
+}
+
+.description-text {
+    color: var(--neutral-grey);
+}
+
+.img-baner {
+    width: 100%;
+}
+
+.img-avatar {
+    width: 4em;
+    height: 3.8em;
+    border-radius: 50%;
+}
+
+.author-name {
+    font-weight: 600;
+    
+}
+
+.avatar {
+    display: flex;
+}
+
+footer {
+    margin-top: 2em;
+}
+
+.attribution { 
+    font-size: 11px; text-align: center;
+    color: var(--neutral-grey); 
+}
+
+.attribution a { 
+    color: var(--neutral-black);
+    text-decoration: none; 
+}
+
+
+@media screen and (max-width: 600px) {
+    body {
+        padding: 0 10% 0 10%;
+        font-size: 14px;
+    }
+
+    .content {
+        padding: 1.5em;
+        border-radius: 1.5em;
+    }
+
+    .img-baner {
+        border-radius: 1.4em;
+    }
+
+    .learn-text {
+        padding: 0.43em;
+        border-radius: 0.4em;
+    }
+
+    .author-name {
+        margin-left: 1em;
+    }
+
+    h1 {
+        white-space: nowrap;
+        font-size: 1.75em;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .content {
+        padding: 2%;
+        border-radius: 1.67em;
+        width: 30%;
+    }
+
+    .img-baner {
+        border-radius: 1.67em;
+    }
+
+    .learn-text {
+        padding: 0.5em 0.6em;
+        border-radius: 0.3em;
+    }
+
+    .author-name {
+        margin-left: 1em;
+    }
+}
